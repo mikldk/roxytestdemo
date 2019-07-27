@@ -1,7 +1,7 @@
 Package: roxytestdemo
 Type: Package
 Title: Demo package using roxytest
-Version: 0.0.1
+Version: 0.0.0.9010
 Authors@R: c(
     person(given = "Mikkel Meyer", family = "Andersen", 
         email = "mikl@math.aau.dk", role = c("aut", "cre"))
