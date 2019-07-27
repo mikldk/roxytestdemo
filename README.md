@@ -1,2 +1,3 @@
 # roxytest-demo
-Demo package using roxytest
+
+Demo package using [roxytest](https://github.com/mikldk/roxytest).
