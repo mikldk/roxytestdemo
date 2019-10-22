@@ -23,3 +23,11 @@ foo <- function(x) {
 bar <- function(x, y) {
   paste0(x, "/", y)
 }
+
+#' Summing two numbers
+#'
+#' @param x A number
+foobar <- function(x, y) {
+  x + y
+}
+
