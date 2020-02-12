@@ -8,19 +8,13 @@ Authors@R: c(
   )
 Author: Mikkel Meyer Andersen [aut, cre]
 Maintainer: Mikkel Meyer Andersen <mikl@math.aau.dk>
-Description: Demonstrating how to use roxytest
+Description: Demonstrating how to use roxytest.
 License: GPL (>= 2)
-Imports:
-  roxygen2, 
-  testthat,
-  roxytest
 Depends:
   R (>= 2.10)
-Suggests: knitr, rmarkdown, testthat
+Suggests: testthat
 BugReports: https://github.com/mikldk/roxytest-demo/issues
-VignetteBuilder: knitr
-LazyData: true
 Encoding: UTF-8
 Roxygen: list(roclets = c("namespace", "rd", "roxytest::testthat_roclet", 
                                              "roxytest::param_roclet"))
-RoxygenNote: 6.1.99.9001
+RoxygenNote: 7.0.2
