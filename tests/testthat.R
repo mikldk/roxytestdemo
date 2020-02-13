@@ -1,4 +1,4 @@
 library(testthat)
-library(roxytest)
+library(roxytestdemo)
 
-test_check("roxytest")
+test_check("roxytestdemo")
