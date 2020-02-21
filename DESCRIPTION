@@ -13,7 +13,7 @@ License: GPL (>= 2)
 Depends:
   R (>= 2.10)
 Suggests: testthat
-BugReports: https://github.com/mikldk/roxytest-demo/issues
+BugReports: https://github.com/mikldk/roxytestdemo/issues
 Encoding: UTF-8
 Roxygen: list(roclets = c("namespace", "rd", "roxytest::testthat_roclet", 
                                              "roxytest::param_roclet"))
