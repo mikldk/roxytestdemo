@@ -4,7 +4,9 @@ Title: Demo package using roxytest
 Version: 0.0.0.9010
 Authors@R: c(
   person(given = "Mikkel Meyer", family = "Andersen", 
-         email = "mikl@math.aau.dk", role = c("aut", "cre"))
+         email = "mikl@math.aau.dk", role = c("aut", "cre")),
+  person(given = "Ege", family = "Rubak", 
+         email = "rubak@math.aau.dk", role = c("ctb"))
   )
 Author: Mikkel Meyer Andersen [aut, cre]
 Maintainer: Mikkel Meyer Andersen <mikl@math.aau.dk>
@@ -16,5 +18,7 @@ Suggests: testthat
 BugReports: https://github.com/mikldk/roxytestdemo/issues
 Encoding: UTF-8
 Roxygen: list(roclets = c("namespace", "rd", "roxytest::testthat_roclet", 
-                                             "roxytest::param_roclet"))
+                                             "roxytest::param_roclet", 
+                                             "roxytest::return_roclet", 
+                                             "roxytest::examples_roclet"))
 RoxygenNote: 7.0.2

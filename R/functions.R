@@ -16,6 +16,9 @@ foo <- function(x) {
 #' @param x Character vector
 #' @param y Character vector
 #' 
+#' @examples 
+#' bar("A", "B")
+#' 
 #' @tests 
 #' expect_equal(bar("A", "B"), paste("A", "B", sep = "/"))
 #' 
@@ -31,3 +34,15 @@ foobar <- function(x, y) {
   x + y
 }
 
+
+#' A function to do z
+#' 
+#' @param x Character vector
+#' @param y Character vector
+#' 
+#' @return something 
+#' 
+#' @export
+barfoo <- function(x, y) {
+  paste0(x, "/", y)
+}
