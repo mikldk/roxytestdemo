@@ -46,3 +46,23 @@ foobar <- function(x, y) {
 barfoo <- function(x, y) {
   paste0(x, "/", y)
 }
+
+#' A function to do w
+#' 
+#' @param x A number
+#' 
+#' @examples 
+#' x <- 2
+#' foo(x)
+#' 
+#' @tests 
+#' expect_equal(foo(2), sqrt(2))
+#' expect_error(foo("a string"))
+#' 
+#' @testexamples
+#' expect_equal(foo(x), foo(2))
+#' 
+#' @return something
+foo2 <- function(x) {
+  return(sqrt(x))
+}
