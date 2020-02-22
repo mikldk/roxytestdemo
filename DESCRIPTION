@@ -14,10 +14,11 @@ Description: Demonstrating how to use roxytest.
 License: GPL (>= 2)
 Depends:
   R (>= 2.10)
-Suggests: testthat
+Suggests: testthat, tinytest
 BugReports: https://github.com/mikldk/roxytestdemo/issues
 Encoding: UTF-8
-Roxygen: list(roclets = c("namespace", "rd", "roxytest::testthat_roclet", 
+Roxygen: list(roclets = c("namespace", "rd", "roxytest::testthat_roclet",
+                                             "roxytest::tinytest_roclet", 
                                              "roxytest::param_roclet", 
                                              "roxytest::return_roclet", 
                                              "roxytest::examples_roclet"))
