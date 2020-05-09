@@ -22,4 +22,4 @@ Roxygen: list(roclets = c("namespace", "rd", "roxytest::testthat_roclet",
                                              "roxytest::param_roclet", 
                                              "roxytest::return_roclet", 
                                              "roxytest::examples_roclet"))
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.0
