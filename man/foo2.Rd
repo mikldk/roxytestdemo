@@ -17,6 +17,6 @@ A function to do w
 }
 \examples{
 x <- 2
-foo(x)
+foo2(x)
 
 }

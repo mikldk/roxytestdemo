@@ -2,3 +2,5 @@
 
 export(bar)
 export(barfoo)
+export(foo)
+export(foo2)

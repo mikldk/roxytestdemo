@@ -2,19 +2,19 @@
 
 context("File R/functions.R: @tests")
 
-test_that("Function foo() @ L10", {
+test_that("Function foo() @ L11", {
   expect_equal(foo(2), sqrt(2))
   expect_error(foo("a string"))
 })
 
 
-test_that("Function bar() @ L26", {
+test_that("Function bar() @ L27", {
   expect_equal(bar("A", "B"), paste("A", "B", sep = "/"))
 })
 
 
-test_that("Function foo2() @ L66", {
-  expect_equal(foo(2), sqrt(2))
-  expect_error(foo("a string"))
+test_that("Function foo2() @ L68", {
+  expect_equal(foo2(2), sqrt(2))
+  expect_error(foo2("a string"))
 })
 

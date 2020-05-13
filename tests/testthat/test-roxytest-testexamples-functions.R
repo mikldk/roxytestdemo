@@ -2,11 +2,11 @@
 
 context("File R/functions.R: @testexamples")
 
-test_that("Function foo2() @ L66", {
+test_that("Function foo2() @ L68", {
   
   x <- 2
-  foo(x)
+  foo2(x)
   
-  expect_equal(foo(x), foo(2))
+  expect_equal(foo2(x), foo2(2))
 })
 

@@ -7,6 +7,7 @@
 #' expect_error(foo("a string"))
 #' 
 #' @return something
+#' @export
 foo <- function(x) {
   return(sqrt(x))
 }
@@ -53,16 +54,17 @@ barfoo <- function(x, y) {
 #' 
 #' @examples 
 #' x <- 2
-#' foo(x)
+#' foo2(x)
 #' 
 #' @tests 
-#' expect_equal(foo(2), sqrt(2))
-#' expect_error(foo("a string"))
+#' expect_equal(foo2(2), sqrt(2))
+#' expect_error(foo2("a string"))
 #' 
 #' @testexamples
-#' expect_equal(foo(x), foo(2))
+#' expect_equal(foo2(x), foo2(2))
 #' 
 #' @return something
+#' @export
 foo2 <- function(x) {
   return(sqrt(x))
 }

@@ -2,16 +2,16 @@
 
 # File R/functions.R: @tests
 
-## Function foo() @ L10
+## Function foo() @ L11
 expect_equal(foo(2), sqrt(2))
 expect_error(foo("a string"))
 
 
-## Function bar() @ L26
+## Function bar() @ L27
 expect_equal(bar("A", "B"), paste("A", "B", sep = "/"))
 
 
-## Function foo2() @ L66
-expect_equal(foo(2), sqrt(2))
-expect_error(foo("a string"))
+## Function foo2() @ L68
+expect_equal(foo2(2), sqrt(2))
+expect_error(foo2("a string"))
 
